@@ -1,0 +1,7 @@
+b <- 1:10
+> c <- makeVector(b)
+> cachemean(c)
+[1] 5.5
+> cachemean(c)
+getting cached data
+[1] 5.5
